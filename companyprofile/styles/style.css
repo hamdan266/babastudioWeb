@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    width: 100%;
+    height: 630px;
+    background: url("https://i.ibb.co/fFhWRfK/bg-image-hero.png");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.menu ul {
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid white;
+}
+
+.hero {
+    width: 70%;
+    margin-top: 30px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.hero h1.logo {
+    font-size: 40px;
+}
+
+.hero p {
+    width: 50%;
+    margin-block: 30px;
+    margin-inline: auto;
+    color: white;
+    font-size: 20px;
+}
+
+.hero button {
+    border: none;
+    padding-block: 7px;
+    padding-inline: 15px;
+    border-radius: 1rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.btnWhite {
+    background: white;
+    color: #0099ff;
+}
+
+#content {
+    margin-top: 120px;
+}
+
+#pricing {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.judul {
+    color: #044581;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.deskripsi {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#pricing .listPricing {
+    width: 70%;
+    margin-top: 50px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pricing .itemListPricing {
+    width: 30%;
+    box-shadow: -1px 1px 13px 2px #888888;
+    border-radius: 1.5rem;
+}
+
+#pricing .itemListPricing:hover {
+    box-shadow: -1px 1px 13px 5px #888888;
+}
+
+.itemListPricing .headList {
+    height: 80px;
+    width: 100%;
+    background: url("https://i.ibb.co/MgfQc1m/Rectangle-7.png") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30px;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.itemListPricing .headList h3 {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 7px;
+}
+
+#pricing .price {
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+#pricing ul {
+    height: 250px;
+}
+
+#pricing ul li {
+    list-style: none;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+#pricing button {
+    letter-spacing: 2px;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border: none;
+    border-radius: 0.7rem;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.btnGradasi {
+    background: linear-gradient(to right, #0199FF, #4DCAFB);
+    color: white;
+}
+
+.itemListPricing.std .headList {
+    background: url("https://i.ibb.co/s1FtkXm/Rectangle-8.png") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.itemListPricing.std {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background: linear-gradient(to bottom, #298CFF, #5AD8FF);
+}
+
+.txt-blue {
+    color: #0099FF !important;
+}
+
+#services {
+    margin-block: 100px;
+    text-align: center;
+}
+
+#services .listServices {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.listServices .itemServices img {
+    height: 100px;
+}
+
+.listServices .itemServices {
+    width: 25%;
+    padding: 25px;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 13px 2px #888888;
+}
+
+.listServices .itemServices:hover {
+    background: #f5f5f5;
+}
+
+.listServices .itemServices h4 {
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+#contact {
+    margin-block: 70px;
+    width: 100%;
+    text-align: center;
+    background: url("https://i.ibb.co/mtztKgy/bg-Contact.png") no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .boxContact {
+    margin-top: 60px;
+    margin-inline: auto;
+    width: 70%;
+    height: 600px;
+}
+
+#contact .information {
+    width: 30%;
+    padding: 30px;
+    background: #00548C;
+    border-radius: 1.5rem;
+    color: white;
+    text-align: left;
+    z-index: 1;
+    position: relative;
+    top: 90px;
+}
+
+.information h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.information .secInformation {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.sosmed {
+    display: flex;
+    gap: 30px;
+}
+
+#contact .formContact {
+    margin-left: 20%;
+    width: 80%;
+    background: white;
+    border-radius: 1.5rem;
+    padding: 70px 20px 70px 21%;
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 290px;
+}
+
+.formContact h3 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.formContact form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.formContact .formInput {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #227AFF;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.formContact .formInput input,
+.formContact .formInput textarea {
+    padding-left: 5px;
+    border: none;
+    border-bottom: 1px solid #227AFF;
+    outline-style: none;
+}
+
+.formContact .formInput.msg {
+    width: 100%;
+}
+
+.formContact button {
+    background: #1472FF;
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 0.5rem;
+}
+
+#about {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#about .logo p {
+    color: black;
+    font-size: 28px;
+}
+
+#about .desc {
+    width: 25%;
+}
+
+#about .desc h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#about .desc p{
+    text-align: justify;
+}
+
+#footer {
+    width: 100%;
+    background: #4DAAE9;
+    padding-block: 25px;
+    color: white;
+}
+
+#footer .boxFooter {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .boxFooter .cs {
+    display: flex;
+    gap: 30px;
+}

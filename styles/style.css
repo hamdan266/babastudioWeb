@@ -1,0 +1,31 @@
+* {
+    color: white;
+}
+
+th {
+    color: black;
+}
+
+body {
+    background: rgb(3, 3, 37);
+}
+
+h1 {
+    color: red;
+}
+
+#judul{
+    color: white;
+}
+
+.menu{
+    text-decoration: none;
+}
+
+.tulisan{
+    font-size: 20px;
+}
+
+#deskripsi{
+    color: darkgrey;
+}

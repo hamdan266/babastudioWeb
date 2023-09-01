@@ -1,0 +1,28 @@
+.letter-spacing{
+    letter-spacing: 2px;
+}
+
+.bg-best {
+    background: #F5F5F5;
+}
+
+.imgBest {
+    height: 180px;
+}
+
+.imgCategories {
+    height: 100px;
+}
+
+.boxImg {
+    height: 130px;
+    width: 130px;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-80 {
+    width: 80%;
+}
